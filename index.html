@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Orbit - Bootstrap 4 Resume/CV Template for Developers</title>
+    <title>David De La Torre - Curriculum Vitae</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -18,16 +18,19 @@
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/custom.css">
 </head> 
 
 <body>
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <img class="rounded-circle" src="assets/images/profile.jpeg" alt="" />
+                <img class="rounded-circle mb-3" src="assets/images/profile.jpeg" alt="" />
                 <h1 class="name">David De La Torre</h1>
                 <h3 class="tagline">Ingeniero de software</h3>
+                <br>
+                <button class="btn btn-default" onclick="myFunction()">Versión para imprimir</button>
+                
             </div><!--//profile-container-->
             
             <div class="contact-container container-block">
@@ -41,50 +44,54 @@
                 </ul>
             </div><!--//contact-container-->
             <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
+                <h2 class="container-block-title">Educación</h2>
                 <div class="item">
-                    <h4 class="degree">MSc in Computer Science</h4>
-                    <h5 class="meta">University of London</h5>
-                    <div class="time">2011 - 2012</div>
+                    <h4 class="degree">Grado en Ingeniería de Software</h4>
+                    <h5 class="meta">Universidad De Sevilla</h5>
+                    <div class="time">2013 - 2019</div>
                 </div><!--//item-->
                 <div class="item">
-                    <h4 class="degree">BSc in Applied Mathematics</h4>
-                    <h5 class="meta">Bristol University</h5>
-                    <div class="time">2007 - 2011</div>
+                    <h4 class="degree">Bachillerato de Ciencias Tecnológicas</h4>
+                    <h5 class="meta">Escuelas Salesianas María Auxiliadora</h5>
+                    <div class="time">2011 - 2013</div>
                 </div><!--//item-->
             </div><!--//education-container-->
             
             <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
+                <h2 class="container-block-title">Idiomas</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Native)</span></li>
-                    <li>French <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
+                    <li>Español <span class="lang-desc">(Nativo)</span></li>
+                    <li>Inglés <span class="lang-desc">(Profesional)</span></li>
+                    <li>Frances <span class="lang-desc">(Básico)</span></li>
                 </ul>
             </div><!--//interests-->
             
             <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
+                <h2 class="container-block-title">Intereses</h2>
                 <ul class="list-unstyled interests-list">
                     <li>Climbing</li>
                     <li>Snowboarding</li>
                     <li>Cooking</li>
                 </ul>
             </div><!--//interests-->
-            
+    
         </div><!--//sidebar-wrapper-->
         
         <div class="main-wrapper">
             
             <section class="section summary-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
-                <div class="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Resumen</h2>
+                <div class="summary text-justify">
+                    <p>La capacidad de crear algo de la nada es algo que siempre me ha apasionado. Es por ello que he decidido dedicar mi vida a esta profesión.</p>
+                    <p>Aunque dentro de la ingeniería de software, estoy especializado en desarrollo y en gestión de proyectos, soy una persona que le gusta enfrentarse a nuevos retos con el objetivo de ser aun mejor en lo que hago.</p>            
+                    <p>Estoy en constante formación para no perderme nada nuevo e ir siempre a la vanguardia de la innovación.</p>                  
+                    <p>Con 16 años fundé Cimagamers, una empresa que tuvo proyección internacional y en la que compartimos experiencias más de 50 personas.</p>    
+                    <p>Dedico mi tiempo libre a “cacharrear” con dispositivos como la Raspberry Pi y Arduino así como a gestionar servidores en los que alojo páginas web y ejecuto algoritmos de inteligencia artificial.</p>
                 </div><!--//summary-->
             </section><!--//section-->
             
             <section class="section experiences-section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiencia</h2>
                 
                 <div class="item">
                     <div class="meta">
@@ -128,6 +135,11 @@
                 </div><!--//item-->
                 
             </section><!--//section-->
+
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-certificate"></i></span>Certificaciones</h2>
+                
+            </section><!--//section-->
             
             <section class="section projects-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Projects</h2>
@@ -154,7 +166,7 @@
             </section><!--//section-->
             
             <section class="skills-section section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Habilidades y competencias</h2>
                 <div class="skillset">        
                     <div class="item">
                         <h3 class="level-title">Python &amp; Django</h3>
@@ -200,6 +212,8 @@
                     
                 </div>  
             </section><!--//skills-section-->
+        
+            
             
         </div><!--//main-body-->
     </div>
@@ -211,6 +225,15 @@
         </div><!--//container-->
     </footer><!--//footer-->
         
+
+
+    <script>
+            function myFunction() {
+              window.print();
+            }
+    </script>
+            
+
 </body>
 </html> 
 
