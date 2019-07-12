@@ -242,6 +242,14 @@ p {
   font-weight: 500;
 }
 
+.main-wrapper .certification-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
 .main-wrapper .time {
   position: absolute;
   right: 0;
@@ -249,7 +257,13 @@ p {
   color: #97AAC3;
 }
 
+
 .main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+
+.main-wrapper .institution {
   margin-bottom: 10px;
   color: #97AAC3;
 }
